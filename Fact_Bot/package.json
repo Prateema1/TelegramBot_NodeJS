@@ -1,0 +1,28 @@
+{
+  "name": "telegrambot_nodejs",
+  "version": "1.0.0",
+  "description": "Telegram Bot Using Telegraf node package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prateema1/TelegramBot_NodeJS.git"
+  },
+  "author": "Pratima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prateema1/TelegramBot_NodeJS/issues"
+  },
+  "homepage": "https://github.com/Prateema1/TelegramBot_NodeJS#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "jimp": "^0.22.8",
+    "nodemon": "^2.0.22",
+    "pexels": "^1.4.0",
+    "telegraf": "^4.12.2",
+    "uuid": "^9.0.0"
+  }
+}
